@@ -553,8 +553,6 @@ def _header_value(text, max_bytes):
 
 
 def _wrap_bytes(text, width=WRAP_WIDTH):
-    """Greedy word wrap by UTF-8 byte length, like the firmware (a word longer than
-    the width stays on a line of its own)."""
     lines, cur, cur_len = [], [], 0
     for tok in text.split():
         n = len(tok.encode("utf-8", "replace"))
@@ -609,7 +607,6 @@ def render_rsvp(title, author, chapters, source=None, language=None):
 
 
 def convert_to_rsvp(path, fmt, title, author, source=None):
-    """path/fmt must be an EPUB or TXT file. Returns (bytes, word_count)."""
     fmt = fmt.upper()
     language = None
     if fmt == "EPUB":
@@ -623,7 +620,6 @@ def convert_to_rsvp(path, fmt, title, author, source=None):
 
 
 def safe_name(title, author, book_id):
-    """ASCII-safe base filename (no extension)."""
     base = title if not author else "%s - %s" % (title, author)
     base = unicodedata.normalize("NFKD", base).encode("ascii", "ignore").decode("ascii")
     base = re.sub(r'[<>:"/\\|?*\x00-\x1f]', "", base)

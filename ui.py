@@ -86,6 +86,8 @@ class RSVPNanoSendAction(InterfaceAction):
     action_type = "current"
 
     def genesis(self):
+        icon = get_icons('images/icon.png', 'RSVP Nano Send')
+        self.qaction.setIcon(icon)
         self.qaction.triggered.connect(lambda *a: self.send("book"))
         self.menu = QMenu(self.gui)
         self.qaction.setMenu(self.menu)
