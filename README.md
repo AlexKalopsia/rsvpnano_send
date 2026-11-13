@@ -36,5 +36,11 @@ The plugin has only been tested on RSVP Nano v0.2.0 rev2
 
 ### Configure the plugin
 
+<p>
+  <picture>
+    <img src="docs/images/rsvp-nano-send-config.png" alt="RSVP Nano Send config">
+  </picture>
+</p>
+
 * In the plugin COnfiguration panel, insert the RSVP Nano IP address. You can also test the connection to verify that it works. 
 * Select the type of conversion. Either the plugin takes the EPUB and converts it to the RSVP Nano's own `.rsvp` format, or it sendsit as TXT and lets the RSVP Nano handle the conversion automatically. 
