@@ -7,12 +7,15 @@
 
 <p align="center"><strong>A Calibre to RSVP Nano brige.</strong><br></p>
 
-RSVP Nano Send is a small Calibre plugin that allows you to send books via Wi-Fi to an [RSVP Nano](https://github.com/ionutdecebal/rsvpnano).
 
-This project is not affiliated in any way with the developers of RSVP Nano. 
+
+> [!WARNING]
+> This project is not affiliated in any way with the developers of RSVP Nano. 
 
 > [!CAUTION]
 > The plugin has only been tested on RSVP Nano v0.2.0 rev2
+
+RSVP Nano Send is a small Calibre plugin that allows you to send books via Wi-Fi to an [RSVP Nano](https://github.com/ionutdecebal/rsvpnano) directly from the Calibre interface.
 
 ## How to install
 
@@ -35,8 +38,8 @@ This project is not affiliated in any way with the developers of RSVP Nano.
   </picture>
 </p>
 
-* In the plugin COnfiguration panel, insert the RSVP Nano IP address. You can also test the connection to verify that it works. 
-* Select the type of conversion. Either the plugin takes the EPUB and converts it to the RSVP Nano's own `.rsvp` format, or it sendsit as TXT and lets the RSVP Nano handle the conversion automatically. 
+* In the plugin Configuration panel, insert the RSVP Nano IP address. You can also test the connection to verify that it works. 
+* Select the type of conversion. Either the plugin takes the EPUB and converts it to the RSVP Nano's own `.rsvp` format (this is seemingly necessary because RSVP Nano does not accept raw EPUB transfer via HTTP), or it sends it as TXT and lets the RSVP Nano handle the conversion automatically. 
 
 ### Sending books
 
