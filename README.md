@@ -29,7 +29,7 @@ RSVP Nano Send is a small Calibre plugin that allows you to send books via Wi-Fi
 
 <p>
   <picture>
-    <img src="docs/images/rsvp-nano-send-config.png" alt="RSVP Nano Send config">
+    <img src="docs/images/rsvp-nano-send-config.jpg" alt="RSVP Nano Send config">
   </picture>
 </p>
 
