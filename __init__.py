@@ -6,7 +6,7 @@ class RSVPNanoSendPlugin(InterfaceActionBase):
     description = "Send and optionally convert selected books to an RSVP Nano reader over Wi-Fi"
     supported_platforms = ["windows", "osx", "linux"]
     author = "Alex Camilleri"
-    version = (0, 1, 2)
+    version = (0, 1, 3)
     minimum_calibre_version = (6, 0, 0)
 
     actual_plugin = "calibre_plugins.rsvpnano_send.ui:RSVPNanoSendAction"
