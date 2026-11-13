@@ -1,3 +1,20 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/rsvp-nano-send-dark.svg">
+    <img src="docs/images/rsvp-nano-send-light.svg" alt="RSVP Nano Send" width="360">
+  </picture>
+</p>
+
+<p align="center"><strong>Your Calibre books sent with ease.</strong><br>
+An open-source Calibre plugin.</p>
+
+<p align="center">
+  <a href="https://ionutdecebal.github.io/rsvpnano/"><strong>Set up your reader</strong></a>
+  &nbsp;·&nbsp; <a href="#choose-your-software">Choose your software</a>
+  &nbsp;·&nbsp; <a href="https://github.com/ionutdecebal/rsvpnano/releases">Downloads</a>
+  &nbsp;·&nbsp; <a href="https://discord.gg/mB5xv2PG53">Join the community</a>
+</p>
+
 # RSVP Nano for Calibre
 
 This is a small Calibre plugin that allows to send books via Wi-Fi to an RSVP Nano. 
