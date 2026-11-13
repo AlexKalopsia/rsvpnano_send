@@ -5,21 +5,12 @@
   </picture>
 </p>
 
-<p align="center"><strong>Your Calibre books sent with ease.</strong><br>
-An open-source Calibre plugin.</p>
+<p align="center"><strong>A Calibre -> RSVP Nano brige.</strong><br></p>
 
-<p align="center">
-  <a href="https://ionutdecebal.github.io/rsvpnano/"><strong>Set up your reader</strong></a>
-  &nbsp;·&nbsp; <a href="#choose-your-software">Choose your software</a>
-  &nbsp;·&nbsp; <a href="https://github.com/ionutdecebal/rsvpnano/releases">Downloads</a>
-  &nbsp;·&nbsp; <a href="https://discord.gg/mB5xv2PG53">Join the community</a>
-</p>
+RSVP Nano Send is a small Calibre plugin that allows you to send books via Wi-Fi to an RSVP Nano. 
 
-# RSVP Nano for Calibre
-
-This is a small Calibre plugin that allows to send books via Wi-Fi to an RSVP Nano. 
-
-The plugin has only been tested on RSVP Nano v0.2.0 rev2
+> [!CAUTION]
+> The plugin has only been tested on RSVP Nano v0.2.0 rev2
 
 ## How to install
 
